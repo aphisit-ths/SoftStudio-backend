@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -15,7 +16,11 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseSwagger();
+app.UseSwaggerUI(c => {
+    c.RoutePrefix = "";
+    c.SwaggerEndpoint("/swagger/v1/swagger.json" , "v1");
+});
 app.UseRouting();
 
 app.UseAuthorization();
