@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\3rd year\\2nd Semester\\SoftStudio-backend\\dhamma\\dhamma.csproj": {}
+    "C:\\Users\\ACER-OAT\\Desktop\\backend\\SoftStudio-backend\\dhamma\\dhamma.csproj": {}
   },
   "projects": {
-    "E:\\3rd year\\2nd Semester\\SoftStudio-backend\\dhamma\\dhamma.csproj": {
+    "C:\\Users\\ACER-OAT\\Desktop\\backend\\SoftStudio-backend\\dhamma\\dhamma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\3rd year\\2nd Semester\\SoftStudio-backend\\dhamma\\dhamma.csproj",
+        "projectUniqueName": "C:\\Users\\ACER-OAT\\Desktop\\backend\\SoftStudio-backend\\dhamma\\dhamma.csproj",
         "projectName": "dhamma",
-        "projectPath": "E:\\3rd year\\2nd Semester\\SoftStudio-backend\\dhamma\\dhamma.csproj",
-        "packagesPath": "C:\\Users\\poomy\\.nuget\\packages\\",
-        "outputPath": "E:\\3rd year\\2nd Semester\\SoftStudio-backend\\dhamma\\obj\\",
+        "projectPath": "C:\\Users\\ACER-OAT\\Desktop\\backend\\SoftStudio-backend\\dhamma\\dhamma.csproj",
+        "packagesPath": "C:\\Users\\ACER-OAT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ACER-OAT\\Desktop\\backend\\SoftStudio-backend\\dhamma\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\poomy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ACER-OAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +43,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
