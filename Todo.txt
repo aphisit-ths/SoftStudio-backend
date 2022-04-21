@@ -3,9 +3,6 @@ CompareAttribute -> password & Confirm password
 EmailAddressAttribute -> email for registration
 StringLengthAttribut -> Content & Comment String length
 
-<<<<<<< Updated upstream
-dotnet dev-certs https --trust
-=======
 dotnet dev-certs https --trust
 
 -----------Actual Todo List-----------
@@ -64,4 +61,3 @@ private bool remove_Content(){
         }
         return false;
     }
->>>>>>> Stashed changes
