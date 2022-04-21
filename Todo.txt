@@ -43,3 +43,21 @@ Content.cs
 	deleteComment --Appending--
 	hideUserComment --Appending--
 	
+
+
+private bool remove_Content(){
+        String json = loadDatabase();
+        var content_list = JsonConvert.DeserializeObject<List<Content>>(json);
+        if(content_list != null){
+            try{
+                var itemToRemove = content_list.Single(r => r.ContentId == this.ContentId);
+                content_list.Remove(itemToRemove);
+                updateDatabase(content_list);
+                return true;
+            }
+            catch{
+                return false;
+            }
+        }
+        return false;
+    }
