@@ -17,9 +17,10 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseSwagger();
-app.UseSwaggerUI(c => {
+app.UseSwaggerUI(c =>
+{
     c.RoutePrefix = "";
-    c.SwaggerEndpoint("/swagger/v1/swagger.json" , "v1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
 });
 app.UseRouting();
 
