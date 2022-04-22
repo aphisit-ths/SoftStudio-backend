@@ -249,10 +249,6 @@ public class User
         user_list.Add(this);
         var newJson = JsonConvert.SerializeObject(user_list, Formatting.Indented);
         File.WriteAllText("./Database/User.json", newJson);
-
-
-
-
     }
     public static String Register_User(String username, String password, String name, String lastname, String email)
     {
@@ -284,8 +280,4 @@ public class User
         return temp_list;
 
     }
-
-
-
-
 }
