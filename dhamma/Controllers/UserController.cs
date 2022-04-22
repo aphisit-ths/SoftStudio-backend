@@ -45,16 +45,10 @@ namespace dhamma.Controllers
 
         [HttpGet] // Pass as KEY and VALUE to use  || Note : Some error occur so I can't write this function properly
         [Route("GetbyStatus")]
-<<<<<<< HEAD
         public IActionResult GetUserbyStatus(String status)
-        {
-            //  "Active" ,"Cancled" , "Banned"
-            var result = getUserbyStatus(status);
-=======
-        public IActionResult GetUserbyStatus(String status){ //  "Active" ,"Cancled" , "Banned"
+        { //  "Active" ,"Cancled" , "Banned"
             Console.WriteLine("Status");
-            var result = getUserbyStatus(status) ;
->>>>>>> b57337c7fae0d01791716934b0da8ff4eb490943
+            var result = getUserbyStatus(status);
             return Ok(result);
         }
 

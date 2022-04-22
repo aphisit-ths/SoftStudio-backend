@@ -1,261 +1,46 @@
-[
-  {
-    "UserId": 0,
-    "UserName": "string",
-    "Password": "string",
-    "Name": "string",
-    "LastName": "string",
-    "Email": "string",
-    "Status": "Cancled"
-  },
-  {
-    "UserId": 1,
-    "UserName": "test_postman4",
-    "Password": "passworldd",
-    "Name": "name",
-    "LastName": "โอ๊ต update",
-    "Email": "update จ้าาา",
-    "Status": "Banned"
-  },
-  {
-    "UserId": 4,
-    "UserName": "newname",
-    "Password": "passs",
-    "Name": "name",
-    "LastName": "LLL",
-    "Email": "@email.com",
-    "Status": "Cancled"
-  },
-  {
-    "UserId": 0,
-<<<<<<< HEAD
-    "UserName": "string",
-    "Password": "string",
-    "Name": "string",
-    "LastName": "string",
-    "Email": "string",
-    "Status": "Active"
-  },
-  {
-    "UserId": 1,
-    "UserName": "test_postman4",
-    "Password": "passworldd",
-    "Name": "name",
-    "LastName": "โอ๊ต update",
-    "Email": "update จ้าาา",
-    "Status": "Active"
-  },
-  {
-    "UserId": 2,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 3,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 4,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-=======
-    "UserName": "neeewname",
-    "Password": "passs",
-    "Name": "name",
-    "LastName": "LLL",
-    "Email": "@emafil.com",
->>>>>>> b57337c7fae0d01791716934b0da8ff4eb490943
-    "Status": "Active"
-  },
-  {
-    "UserId": 5,
-<<<<<<< HEAD
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 6,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 7,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 8,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 9,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 10,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "oath",
-    "LastName": "123456",
-    "Email": "oat123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 0,
-    "UserName": "string",
-    "Password": "string",
-    "Name": "string",
-    "LastName": "string",
-    "Email": "string",
-    "Status": "Active"
-  },
-  {
-    "UserId": 1,
-    "UserName": "test_postman4",
-    "Password": "passworldd",
-    "Name": "name",
-    "LastName": "โอ๊ต update",
-    "Email": "update จ้าาา",
-    "Status": "Active"
-  },
-  {
-    "UserId": 2,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "123456",
-    "LastName": "123456",
-    "Email": "oath123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 3,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "123456",
-    "LastName": "123456",
-    "Email": "oath123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 4,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "123456",
-    "LastName": "123456",
-    "Email": "oath123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 5,
-    "UserName": "string",
-    "Password": "string",
-    "Name": "string",
-    "LastName": "string",
-    "Email": "string",
-    "Status": "Active"
-  },
-  {
-    "UserId": 6,
-    "UserName": "oooooooooooooooo",
-    "Password": "ooooooooooooooooooo",
-    "Name": "oooooooooooooooooooooooooo",
-    "LastName": "string",
-    "Email": "string",
-    "Status": "Active"
-  },
-  {
-    "UserId": 7,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "123456",
-    "LastName": "123456",
-    "Email": "oath123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 8,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "123456",
-    "LastName": "123456",
-    "Email": "oath123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 9,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "123456",
-    "LastName": "123456",
-    "Email": "oath123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 10,
-    "UserName": "oath",
-    "Password": "123456",
-    "Name": "123456",
-    "LastName": "123456",
-    "Email": "oath123",
-    "Status": "Active"
-  },
-  {
-    "UserId": 11,
-    "UserName": "aphist",
-    "Password": "papapa",
-    "Name": "aphisit",
-    "LastName": "oaoaoa",
-    "Email": "oaoaoao",
-    "Status": "Active"
-  },
-  {
-    "UserId": 12,
-    "UserName": "aphist",
-    "Password": "papapa",
-    "Name": "aphisit",
-    "LastName": "oaoaoa",
-    "Email": "oaoaoao",
-=======
-    "UserName": "neeewewname",
-    "Password": "passs",
-    "Name": "name",
-    "LastName": "LLL",
-    "Email": "@emawwfil.com",
->>>>>>> b57337c7fae0d01791716934b0da8ff4eb490943
-    "Status": "Active"
-  }
+[{
+        "UserId": 0,
+        "UserName": "string",
+        "Password": "string",
+        "Name": "string",
+        "LastName": "string",
+        "Email": "string",
+        "Status": "Cancled"
+    },
+    {
+        "UserId": 1,
+        "UserName": "test_postman4",
+        "Password": "passworldd",
+        "Name": "name",
+        "LastName": "โอ๊ต update",
+        "Email": "update จ้าาา",
+        "Status": "Banned"
+    },
+    {
+        "UserId": 4,
+        "UserName": "newname",
+        "Password": "passs",
+        "Name": "name",
+        "LastName": "LLL",
+        "Email": "@email.com",
+        "Status": "Cancled"
+    },
+    {
+        "UserId": 5,
+        "UserName": "neeewewname",
+        "Password": "passs",
+        "Name": "name",
+        "LastName": "LLL",
+        "Email": "@emawwfil.com",
+        "Status": "Active"
+    },
+    {
+        "UserId": 6,
+        "UserName": "oath123",
+        "Password": "oath123",
+        "Name": "oath123",
+        "LastName": "oath123",
+        "Email": "oath123@example.com",
+        "Status": "Active"
+    }
 ]
