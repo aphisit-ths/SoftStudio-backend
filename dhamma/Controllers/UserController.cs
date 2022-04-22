@@ -13,7 +13,12 @@ namespace dhamma.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-
+        [HttpGet("{id}")]
+        public IActionResult GetUser_ID(int id)
+        {
+            var result = GetUserbyId(id);
+            return Ok(result);
+        }
 
         [HttpGet]
         public IActionResult GetUsers()
@@ -21,16 +26,6 @@ namespace dhamma.Controllers
             var result = getAllUsers();
             return Ok(result);
         }
-
-        [HttpGet]
-        [Route("GetById")]
-        public IActionResult GetUser_ID(int id)
-        {
-            Console.WriteLine("GetbyID");
-            var result = GetUserbyId(id);
-            return Ok(result);
-        }
-
 
         [HttpPost]
         [Route("Register")]
@@ -50,10 +45,16 @@ namespace dhamma.Controllers
 
         [HttpGet] // Pass as KEY and VALUE to use  || Note : Some error occur so I can't write this function properly
         [Route("GetbyStatus")]
+<<<<<<< HEAD
         public IActionResult GetUserbyStatus(String status)
-        { //  "Active" ,"Cancled" , "Banned"
-            Console.WriteLine("Status");
+        {
+            //  "Active" ,"Cancled" , "Banned"
             var result = getUserbyStatus(status);
+=======
+        public IActionResult GetUserbyStatus(String status){ //  "Active" ,"Cancled" , "Banned"
+            Console.WriteLine("Status");
+            var result = getUserbyStatus(status) ;
+>>>>>>> b57337c7fae0d01791716934b0da8ff4eb490943
             return Ok(result);
         }
 
