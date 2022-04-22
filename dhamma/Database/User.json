@@ -28,6 +28,7 @@
   },
   {
     "UserId": 0,
+<<<<<<< HEAD
     "UserName": "string",
     "Password": "string",
     "Name": "string",
@@ -69,10 +70,18 @@
     "Name": "oath",
     "LastName": "123456",
     "Email": "oat123",
+=======
+    "UserName": "neeewname",
+    "Password": "passs",
+    "Name": "name",
+    "LastName": "LLL",
+    "Email": "@emafil.com",
+>>>>>>> b57337c7fae0d01791716934b0da8ff4eb490943
     "Status": "Active"
   },
   {
     "UserId": 5,
+<<<<<<< HEAD
     "UserName": "oath",
     "Password": "123456",
     "Name": "oath",
@@ -240,6 +249,13 @@
     "Name": "aphisit",
     "LastName": "oaoaoa",
     "Email": "oaoaoao",
+=======
+    "UserName": "neeewewname",
+    "Password": "passs",
+    "Name": "name",
+    "LastName": "LLL",
+    "Email": "@emawwfil.com",
+>>>>>>> b57337c7fae0d01791716934b0da8ff4eb490943
     "Status": "Active"
   }
 ]

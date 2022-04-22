@@ -249,17 +249,39 @@ public class User
         user_list.Add(this);
         var newJson = JsonConvert.SerializeObject(user_list, Formatting.Indented);
         File.WriteAllText("./Database/User.json", newJson);
+
+
+
+
     }
     public static String Register_User(String username, String password, String name, String lastname, String email)
     {
         User newUser = new User(nowId, username, password, name, lastname, email);
+        if (isRedundantEmail(newUser.Email))
+        {
+            return " Email redundant : Register Fail";
+        }
+        if (isRedundantUserName(newUser.UserName))
+        {
+            return " User name redunddant :Register Fail ";
+        }
+
+        newUser.UserId = findlastId();
         newUser.append_User();
         nowId += 1;
         return "Success";
     }
     public static String Register_User(User newUser)
     {
-        newUser.UserId = nowId;
+        if (isRedundantEmail(newUser.Email))
+        {
+            return " Email redundant : Register Fail";
+        }
+        if (isRedundantUserName(newUser.UserName))
+        {
+            return " User name redunddant :Register Fail ";
+        }
+        newUser.UserId = findlastId();
         newUser.Status = "Active";
         newUser.append_User();
         nowId += 1;
@@ -280,4 +302,66 @@ public class User
         return temp_list;
 
     }
+    public static Boolean isRedundantUserName(String newUsername)
+    {
+        List<User> exist_users = getAllUsers();
+        foreach (User user in exist_users)
+        {
+            if (user.UserName == newUsername)
+            {
+                return true;
+            }
+
+        }
+        return false;
+    }
+    public static Boolean isRedundantEmail(String newEmail)
+    {
+        List<User> exist_users = getAllUsers();
+        foreach (User user in exist_users)
+        {
+            if (user.Email == newEmail)
+            {
+                Console.WriteLine("EmailRedundant");
+                return true;
+            }
+
+        }
+        return false;
+    }
+    public static User GetUserbyEmail(String Email)
+    {
+        var user_list = getAllUsers();
+        foreach (User user in user_list)
+        {
+            if (user.Email == Email)
+            {
+                return user;
+            }
+
+
+        }
+        return null;
+    }
+    public static int findlastId()
+    {
+        List<User> exist_users = getAllUsers();
+        int last = 0;
+        if (!exist_users.Any())
+        {
+            return 0;
+        }
+        foreach (User user in exist_users)
+        {
+            if (user.UserId > last)
+            {
+                last = user.UserId;
+            }
+        }
+        return last + 1;
+    }
+
+
+
+
 }
