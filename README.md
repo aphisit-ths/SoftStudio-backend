@@ -1,4 +1,4 @@
-https://github.com/aphisit-ths/api-gateway-software-studio.git## เที่ยวหาธรรม (SOFTWARE STUDIO ASSIGNMENT FRONT-END SECTION)
+## เที่ยวหาธรรม (SOFTWARE STUDIO ASSIGNMENT BACKEND SECTION)
 
 > เว็ปแอพพลิเคชั่นสำหรับการท่องเที่ยวเชิงธรรมมะ เผยแพร่ทั้งสถานที่ต่างๆ ของการแสวงหาธรรม โดยมีเนื้อหาและ Interface ที่เข้าใจง่ายเหมาะกับวัยรุ่น
 
